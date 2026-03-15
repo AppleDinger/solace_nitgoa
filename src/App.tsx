@@ -4,6 +4,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import Header from "@/components/Header";
+import Navigation from "@/components/Navigation";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Library from "./pages/Library";
@@ -21,6 +23,9 @@ const App = () => (
       <Sonner />
       <HelmetProvider>
         <BrowserRouter>
+          {/* Header and Navigation are now global */}
+          <Header />
+          <Navigation />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/library" element={<Library />} />
@@ -28,7 +33,6 @@ const App = () => (
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/advertisements" element={<Advertisements />} />
             <Route path="/about" element={<About />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
