@@ -1,18 +1,13 @@
-import Header from "@/components/Header";
-import Navigation from "@/components/Navigation";
 import EventCard from "@/components/EventCard";
 import NewsCard from "@/components/NewsCard";
 import FeaturedSection from "@/components/FeaturedSection";
 import Footer from "@/components/Footer";
-import hamletPerformance from "@/assets/hamlet-performance.jpg";
 import solaceNightLive from "@/assets/solace-night-live.jpg";
-import shakespeareFestival from "@/assets/shakespeare-festival.jpg";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
-      <Navigation />
+      {/* Header and Navigation are now handled globally in App.tsx */}
       
       {/* Join the Club Section */}
       <div className="px-6 py-3">
