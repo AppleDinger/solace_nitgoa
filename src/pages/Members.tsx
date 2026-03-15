@@ -29,25 +29,13 @@ const members: Member[] = [
     name: "Ram Mishra",
     role: "Secretary",
     image: "https://i.ibb.co/0jkd4JKy/ram.jpg",
-    quote: "I'm way cuter in person",
+    quote: "Let me tell you a joke - *Redacted*",
   },
   {
     name: "Kartikey Tiwari",
     role: "Treasurer",
     image: "https://i.ibb.co/Cp7Nphry/kartikey.jpg",
     quote: "People told me to aim for the stars—So I got a water gun🔫",
-  },
-  {
-    name: "Aryan Kumar",
-    role: "Marketing Head",
-    image: "https://i.ibb.co/0RDwRCrZ/aryan-kumar.jpg",
-    quote: "Slow is Smooth, Smooth is Fast",
-  },
-  {
-    name: "Shrujal",
-    role: "PR and Out-Reach Head",
-    image: "https://i.ibb.co/QFRbPTLw/shru.jpg",
-    quote: "YOLO",
   },
   {
     name: "Kathan",
@@ -74,6 +62,12 @@ const members: Member[] = [
     quote: "I don't make mistakes - I create unexpected plotlines",
   },
   {
+    name: "Shrujal",
+    role: "Website Manager",
+    image: "https://i.ibb.co/QFRbPTLw/shru.jpg",
+    quote: "YOLO",
+  },
+  {
     name: "Soha",
     role: "Social Media Team",
     image: "https://i.ibb.co/LX9QrdFz/soha.jpg",
@@ -84,12 +78,6 @@ const members: Member[] = [
     role: "Social Media Team",
     image: "https://i.ibb.co/HfBffkCJ/manasi.jpg",
     quote: "I genuinely don't know what's going on, but I'm vibing.",
-  },
-  {
-    name: "Sanchita Mahale",
-    role: "Social Media Team",
-    image: "https://i.ibb.co/8gRx2pRZ/sanchita.jpg",
-    quote: "Like wildflowers, I bloom in my own time🌸",
   },
   {
     name: "Parth",
